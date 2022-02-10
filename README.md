@@ -117,10 +117,10 @@ int jumin=Integer.parseInt(dto.getJumin().substring(0, 2));
 <pre>
 <code>
 double c;
-		c = (Double.parseDouble(nowdto.getTxtweight()) * 1.8);
+c = (Double.parseDouble(nowdto.getTxtweight()) * 1.8);
     
 double d;
-		d = (a * 0.3/9);
+d = (a * 0.3/9);
 </code>
 </pre>
 <br>
@@ -132,9 +132,9 @@ double d;
 <code>
 <script src="https://code.highcharts.com/highcharts.js"></script>
             <script src="https://code.highcharts.com/modules/series-label.js"></script>
-            <!-- <script src="https://code.highcharts.com/modules/exporting.js"></script>
+            <script src="https://code.highcharts.com/modules/exporting.js"></script>
             <script src="https://code.highcharts.com/modules/export-data.js"></script>
-            <script src="https://code.highcharts.com/modules/accessibility.js"></script> -->
+            <script src="https://code.highcharts.com/modules/accessibility.js"></script>
             <figure class="highcharts-figure">
                 <div id="chart"></div>
                 <p class="highcharts-description">
@@ -156,6 +156,7 @@ double d;
               <img src="/team3/asset/images/title1.webp" width="230"
             /></a>
           </div>
+</code>
 </pre>
 <br>
 <br><br><br><br><br><br>
