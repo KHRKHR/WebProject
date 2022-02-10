@@ -136,10 +136,10 @@ d = (a * 0.3/9);
             <script src="https://code.highcharts.com/modules/export-data.js"></script>
             <script src="https://code.highcharts.com/modules/accessibility.js"></script>
             <figure class="highcharts-figure">
-                <div id="chart"></div>
-                <p class="highcharts-description">
-                </p>
-</code>
+              <div id="chart"></div>
+               <p class="highcharts-description">
+                </p> 
+</code> 
 </pre>
 <br>
 <h3>· 득근영상 페이지</h3><br>
