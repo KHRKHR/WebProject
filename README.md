@@ -16,7 +16,7 @@
 <h2 align="middle"> 🙋‍♀️ 득근득근을 만든 사람들 🙋‍♂️</h2>
 <p align="center">
   
-| [혜림]  |  [연중]  |   [민종]   |  [규상]  | [윤섭]   |
+| [혜림](https://github.com/KHRKHR)  |  [연중](https://github.com/KYJKY)  |   [민종](https://github.com/)   |  [규상](https://github.com/)  | [윤섭](https://github.com/lh0156)   |
 | :----------------------------------------------------------: |:----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | 
 | <img src="https://user-images.githubusercontent.com/43840561/129164013-2a88c2e7-1a93-4cc7-bbd8-c5818f5152c7.png"/> | <img src="https://user-images.githubusercontent.com/44080404/133540314-639cc580-1aa5-4bf4-8d54-b435bfe5e5f8.png" /> |  <img src="https://user-images.githubusercontent.com/44080404/133540317-20da5664-aa3d-4afb-809b-a7d4780a5a17.png" />| <img src="https://user-images.githubusercontent.com/44080404/133540314-639cc580-1aa5-4bf4-8d54-b435bfe5e5f8.png" /> | <img src="https://user-images.githubusercontent.com/44080404/133540503-22c158d4-1042-4e7c-9ee5-79c694bf5841.png" /> |
 </p>
