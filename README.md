@@ -48,9 +48,10 @@
 <img src="https://user-images.githubusercontent.com/97592294/153474553-3ac4187a-f7ba-4e34-a7ab-64b0f5783acb.jpg" width="500" />
 <h4>1. 헬스케어 서비스 메인 페이지를 구현했습니다.</h4>
 <h4>2. 다양한 디자인을 추가하여 보기 쉬운 페이지를 구현하였습니다.</h4>
-<pre>
-<code>
-<c:if test="${not empty id}">
+
+~~~
+ <div>
+  <%--  <c:if test="${not empty id}"> --%>
         <a href="/team3/healthcare/addnowspec.do?memberseq=MB3">
           <div id="btngo">
             인바디
@@ -58,17 +59,19 @@
               class="fas fa-sign-in-alt"
               id="some"
             ></i></div
-        ></a></c:if> 
-</code>
-</pre>
+        ></a><%-- </c:if> --%>
+ </div>
+ ~~~
+ 
 <br>
+
 <h3>· 헬스케어 페이지 현재스펙</h3><br>
 <img src="https://user-images.githubusercontent.com/97592294/153475064-c334b789-4599-44d5-9436-7dd8168075ae.jpg" width="500" />
 <h4>1. 회원의 현재스펙을 기록하는 페이지 입니다.</h4>
 <h4>2. 회원이 입력하는 값을 전달하는 서비스를 구현했습니다.</h4>
 <h4>3. 현재 나이를 정보를 얻어 계산하여 회원 맞춤으로 나이값을 제공합니다.</h4>
-<pre>
-<code>
+
+~~~
 int jumin=Integer.parseInt(dto.getJumin().substring(0, 2));
 		int age;
 		
@@ -86,15 +89,16 @@ int jumin=Integer.parseInt(dto.getJumin().substring(0, 2));
 		RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/views/healthcare/addnowspec.jsp");
 		dispatcher.forward(req, resp);
 	}
-</code>
-</pre>
+ ~~~
+ 
+
 <br>
 <h3>· 헬스케어 페이지 목표 스펙</h3><br>
 <img src="https://user-images.githubusercontent.com/97592294/153475074-f6f9451e-d1f3-44e6-9fe0-2e46758fd54a.jpg" width="500" />
 <h4>1. 회원의 목표 스펙을 기록하는 페이지 입니다.</h4>
 <h4>2. 입력 받은 스펙을 순서에 맞게 기록하였습니다.</h4>
-<pre>
-<code>
+
+~~~
 	pstat = conn.prepareStatement(sql);
 			pstat.setString(1, dto.getWantWeight());
 			pstat.setString(2, dto.getWantFat());
@@ -107,8 +111,8 @@ int jumin=Integer.parseInt(dto.getJumin().substring(0, 2));
 			e.printStackTrace();
 		}
 	}
-</code>
-</pre>
+~~~
+
 <br>
 <h3>· 헬스케어 페이지 권장 칼로리</h3><br>
 <img src="https://user-images.githubusercontent.com/97592294/153475081-d20ab5d8-de41-405a-9976-d3491ab04546.jpg" width="500" />
@@ -128,8 +132,8 @@ d = (a * 0.3/9);
 <img src="https://user-images.githubusercontent.com/97592294/153475085-2105591b-87af-46ae-ac68-e5720be217a9.jpg" width="500" />
 <h4>1. 기록 된 회원 정보를 사용자의 편의에 따라 제공합니다.</h4>
 <h4>2. 하이차트를 이용하여 그래프를 구현하였습니다.</h4>
-<pre>
-<code>
+
+~~~
 <script src="https://code.highcharts.com/highcharts.js"></script>
             <script src="https://code.highcharts.com/modules/series-label.js"></script>
             <script src="https://code.highcharts.com/modules/exporting.js"></script>
@@ -139,15 +143,15 @@ d = (a * 0.3/9);
               <div id="chart"></div>
                <p class="highcharts-description">
                 </p> 
-</code> 
-</pre>
+~~~
+
 <br>
 <h3>· 득근영상 페이지</h3><br>
 <img src="https://user-images.githubusercontent.com/97592294/153476128-85f52682-80d2-4cc1-8ab6-0c0ac64b7b77.jpeg" width="500" />
 <h4>1. 추천 운동 영상 제공 페이지 입니다.</h4>
 <h4>2. 카테고리 별 추천 영상을 확인 할 수 있습니다.</h4>
-<pre>
-<code>
+
+~~~
 <div id="video1" class="video_content">
             <a
               href="https://www.youtube.com/watch?v=yhfw8tIoZ4s&t=220s"
@@ -156,8 +160,8 @@ d = (a * 0.3/9);
               <img src="/team3/asset/images/title1.webp" width="230"
             /></a>
           </div>
-</code>
-</pre>
+~~~
+
 <br>
 <br><br><br><br><br><br>
 
