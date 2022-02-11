@@ -86,7 +86,8 @@ int jumin=Integer.parseInt(dto.getJumin().substring(0, 2));
 		req.setAttribute("dto", dto);
 		req.setAttribute("age", age);
 
-		RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/views/healthcare/addnowspec.jsp");
+		RequestDispatcher dispatcher = req.getRequestDispatcher
+		("/WEB-INF/views/healthcare/addnowspec.jsp");
 		dispatcher.forward(req, resp);
 	}
  ~~~
